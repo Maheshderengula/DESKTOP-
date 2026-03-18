@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <!--head has only 5 tages title,meta,style,link,script
+-->
+        <title>frist weeb design</title>
+
+    </head>
+
+    <body>
+        <nav>
+        <img src="https://www.greetlabs.com/images/logo-dark.png">
+
+        <a href="./index.html">Home</a>
+        <a href="./about.html">about</a>
+        <a href="./services.html">services</a>
+        <a href="./employees.html">employees</a>
+        <a href="./contact.html">contact</a>
+        <a href="./login.html">login</a>
+
+        </nav>
+        <div>
+            <h3>Home page</h3>
+        </div>
+    </body>
+</html>
+           

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Register — Heeddata (HTML)</title>
+</head>
+<body>
+  <center>
+    <!-- Logo / Title -->
+    <h1>Heeddata</h1>
+
+    <!-- Registration form (HTMl) -->
+    <form action="#" method="post" autocomplete="off" novalidate>
+      <table cellpadding="8" cellspacing="0" border="0"> 
+        <!-- Business email -->
+        <tr>
+          <td align="left"><label for="email">Business email (login) *</label></td>
+          <td>
+            <input id="email" name="email" type="email" placeholder="Enter your business email" required size="45" />
+          </td>
+        </tr>
+
+        <!-- Full name -->
+        <tr>
+          <td align="left"><label for="fullname">Full name *</label></td>
+          <td>
+            <input id="fullname" name="fullname" type="text" placeholder="Your full name" required size="45" />
+          </td>
+        </tr>
+
+        <!-- Password -->
+        <tr>
+          <td align="left"><label for="password">Password *</label></td>
+          <td>
+            <input id="password" name="password" type="password" placeholder="Create a password" required size="45" />
+            <!-- simple eye symbol (non-functional without JS) -->
+            <span aria-hidden="true"> 👁️</span>
+          </td>
+        </tr>
+
+        <!-- Confirm password -->
+        <tr>
+          <td align="left"><label for="confirm">Confirm password *</label></td>
+          <td>
+            <input id="confirm" name="confirm" type="password" placeholder="Confirm your password" required size="45" />
+            <span aria-hidden="true"> 👁️</span>
+          </td>
+        </tr>
+
+        <!-- Authentication code -->
+        <tr>
+          <td align="left"><label for="auth">Authentication Code *</label></td>
+          <td>
+            <input id="auth" name="auth" type="text" placeholder="Enter authentication code" required size="45" />
+            <span aria-hidden="true"> 👁️</span>
+          </td>
+        </tr>
+
+        <!-- Register button -->
+        <tr>
+          <td></td>
+          <td align="center">
+            <button type="submit">Register</button>
+          </td>
+        </tr>
+
+        <!-- Sign in link -->
+        <tr>
+          <td></td>
+          <td align="center">
+            <small>Already have an account? <a href="#">Sign in</a></small>
+          </td>
+        </tr>
+
+        <!-- Support info -->
+        <tr>
+          <td></td>
+          <td>
+            <fieldset>
+              <legend>Info</legend>
+              <p>
+                &#9432; Write to <a href="mailto:support@heeddata.com">support@heeddata.com</a> for Authentication code
+              </p>
+            </fieldset>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </center>
+</body>
+</html>
